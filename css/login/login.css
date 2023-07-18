@@ -1,0 +1,151 @@
+body {
+    background-color: #485746;
+}
+
+
+.conteudo-login p {
+    font-size: 22px;
+    color: #fff;
+}
+
+.conteudo-login a {
+    font-size: 22px;
+    color: #fff;
+    cursor: pointer;
+}
+
+#subT-login {
+    color: #fff;
+    font-size: 32px;
+}
+
+
+.conteudo-login {
+    display: block;
+    margin: 0 auto;
+    grid-template-columns: 400px;
+    width: 600px;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    background-color: #212820;
+    padding: 120px 60px;
+    border-radius: 6px;
+    margin-top: 120px;
+}
+  
+#conta-apple {
+    background-color: #121111;
+    padding: 10px 0px;
+    color: #fff;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  
+#conta-google {
+    background-color: #d9d9d9;
+    padding: 10px 0px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#conta-apple {
+    padding-right: 12px;
+}
+
+
+#conta-google a {
+    color: #000;
+}
+  
+#conta-face {
+    background-color: #202449;
+    padding: 10px 0px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#conta-face img {
+    margin-left: 28px;
+}
+
+.contas {
+    display: grid;
+    align-items: center;
+    gap: 10px;
+    padding: 26px 0 16px 0;
+}
+
+.form-login {
+    display: grid;
+    gap: 12px;
+    padding-bottom: 14px;
+}
+
+
+.form-login label {
+    color: #302B2B;
+    display: block;
+    color: #D9D9D9;
+    text-align: left;
+    margin-left: 60px;
+}
+
+.form-conta input[type= email], [type= password] {
+    width: 80%;
+}
+
+.form-conta input {
+    border: none;
+    border-bottom: 1px solid #bbb1b1;
+    background-color: #212820;
+    padding: 6px 0;
+}
+
+.form-conta input:focus {
+    outline: none;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+}
+
+
+#senhaperdida  {
+    padding-bottom: 20px;
+    text-align: left;
+    margin-left: 60px;
+    color: #E5E3E3;
+    display: block;
+    max-width: max-content;
+    font-size: 22px;
+}
+
+#senhaperdida:hover {
+    color: #bbb7b7;
+}
+
+.conteudo-login button {
+    padding: 16px 66px;
+    background-color: #030403;
+    color: #fff;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.conteudo-login button:hover {
+    background-color: #0c0f0c;
+}
+
+span {
+    font-size: 28px;
+    color: #fff;
+}
+

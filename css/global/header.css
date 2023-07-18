@@ -1,0 +1,41 @@
+.header-bg {
+    background: linear-gradient(180deg, #141414 20%, #182017 70%); 
+    height: 72px;
+}
+
+nav {
+    display: flex;
+    place-content: center;
+    align-items: center;
+    margin: 0 120px; 
+    justify-content: space-between;
+}
+
+.nav-list {
+    display: flex;
+    place-content: center;
+    margin: 0 40px;
+}
+
+nav li {
+    padding: 12px 16px;
+    color: #fff;
+    font-size: 20px;
+}
+
+#entrar {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 12px 16px;
+}
+
+#btn-login {
+    background-color: #0e2509;
+    border-radius: 8px;
+    padding: 12px 28px;
+}
+
+.header-bg a:hover {
+    color: #b3aaaa;
+}

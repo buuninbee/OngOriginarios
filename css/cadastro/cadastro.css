@@ -1,0 +1,130 @@
+.tela-cadastro {
+    display: grid;
+    grid-template-columns: 1300px;
+    margin: 0 50px;
+    justify-content: center;
+    padding: 80px 0 200px 0;
+}
+
+.tela-cadastro span {
+    color: #fff;
+    padding-top: 40px;
+}
+
+h1 {
+    grid-column: 1 / -1;
+    color: #fff;
+    padding: 16px 0 26px 0;
+}
+
+#bg-img {
+    background-image: url(.././../img/pexels-leonardo-capitanio-13028676.jpg);
+    background-size: cover;
+    background-position: top left;
+    height: 100%;
+    border-radius: 6px 0 0 6px ;
+}
+
+
+.form-tela {
+    display: grid;
+    grid-template-columns: 700px 600px;
+}
+
+.form-input label {
+    display: block;
+}
+
+.form-input {
+    display: grid;
+    grid-template-columns: repeat(2 , auto);
+    grid-template-rows: repeat(2, 50px);
+    background-color: #fff;
+    padding: 290px 80px;
+    border-radius: 0 6px 6px 0 ;
+    gap: 12px 0;
+}
+
+
+.form-input #nome {
+    /* margin-bottom: 26px; */
+    margin-bottom: 80px;
+    margin-right: 6px;
+}
+
+.form-input input[type= email] {
+    padding-right: 220px;
+    margin-bottom: 26px;
+}
+
+.form-input label[type= email] {
+    margin-top: 52px;
+}
+
+.cidades {
+    max-height: 50px;
+    margin-top: 12px;
+}
+
+.form-input select {
+    margin-top: 6px;
+    margin-bottom: 6px;
+    padding: 4px 22px;
+    border-radius: 2px;
+}
+
+
+.form-input button {
+    border: none;
+    border-radius: 4px;
+    background: #1D2C1A;
+    color: #fff;
+    padding: 16px 60px ;
+    margin: 0px auto;
+    max-width: max-content;
+
+}
+
+
+.form-input button {
+    position: relative;
+    cursor: pointer;
+}
+
+.form-input button:hover:after {
+    content: " ";
+    display: block;
+    height: 34px;
+    width: 34px;
+    position: absolute;
+    background-image: url(../../img/Ok.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    left: 116px;
+    top: 6px;
+}
+
+.form-input button:hover {
+    background-color: #254b1f;
+    padding: 16px 68px 16px 54px;
+    transition: 0.2s;
+}
+
+.span-2 {
+    grid-column: span 2;
+}
+
+.form-input label {
+    color: #302B2B;
+    margin-bottom: 6px;
+}
+
+.form-input input {
+    border: none;
+    border-bottom: 1px solid #bbb1b1;
+}
+
+.form-input input:focus {
+    outline: none;
+    border-bottom: 1px solid #0a0909;
+}
