@@ -1,0 +1,5 @@
+.slide1, .slide2, .slide3  {
+    background: linear-gradient(90deg, #070707 0%, rgba(52, 48, 48, 0.00) 100%);
+    /* padding: 30px; */
+    position:relative;
+}

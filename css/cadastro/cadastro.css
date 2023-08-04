@@ -1,7 +1,6 @@
 .tela-cadastro {
     display: grid;
     grid-template-columns: 1300px;
-    margin: 0 50px;
     justify-content: center;
     padding: 80px 0 200px 0;
 }
@@ -47,7 +46,6 @@ h1 {
 
 
 .form-input #nome {
-    /* margin-bottom: 26px; */
     margin-bottom: 80px;
     margin-right: 6px;
 }

@@ -1,0 +1,20 @@
+@import "./cadastro/cadastro.css";
+@import "./global/header.css";
+@import "./global/footer.css";
+@import "./global/global.css";
+@import "./login/login.css";
+@import "./esquecisenha/esquecisenha.css";
+@import "./colors/color.css";
+
+
+/* home */
+@import "./home/home.css";
+@import "./home/indrotuçao.css";
+@import "./home/ondeTrabalhamos.css";
+
+
+
+
+
+
+
