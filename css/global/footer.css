@@ -1,60 +1,77 @@
 footer {
-    background-color: #1F291D;
-    padding: 40px 180px;
-    color: #fff;
+  background-color: #1f291d;
+  padding: 40px 100px;
+  color: #fff;
 }
 
-a{
-    color: #fff;
+footer a {
+  color: #fff;
+  text-decoration: none;
 }
 
-a:hover{
-    color: #807b7b;
+footer a:hover {
+  color: #807b7b;
 }
-
 
 .conteudo-footer {
-    display: grid;
-    grid-template-columns: 4fr 1fr;
+  display: grid;
+  grid-template-columns: 1.5fr auto 1fr;
 }
 
 .conteudo-footer h2 {
-    font-size: 3.5rem;
-    position: relative;
+  font-size: 3.5rem;
+  position: relative;
 }
 
 .conteudo-footer h2::after {
-    content: " ";
-    display: block;
-    height: 100px;
-    width: 100px;
-    position: absolute;
-    background-image: url(../../img/Double\ Up.png);
-    background-repeat: no-repeat;
-    background-position: right;
-    left: 292px;
-    top: -48px;
+  content: " ";
+  display: block;
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  background-image: url(../../img/Double\ Up.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  left: 292px;
+  top: -48px;
 }
 
-.contato-meios h3, .contato-redes  h3{
-    margin-bottom: 8px;
+.contato-meios h3,
+.contato-redes h3 {
+  margin-bottom: 8px;
 }
 
-.contato-meios li {
-    padding: 4px 0;
-}
-
+.contato-meios li,
 .contato-redes li {
-    padding: 4px 0;
+  padding: 4px 0;
 }
-
 
 .contato-redes {
-    margin-bottom: 4px;
+  margin-bottom: 4px;
 }
 
 .meios {
-    display: grid;
-    gap: 20px;
-    padding-top: 40px;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  gap: 20px;
+  padding-top: 40px;
+}
+
+.meios ul {
+  margin-left: 0;
+}
+
+.qr-code {
+  max-width: 200px;
+  display: grid;
+  justify-items: center;
+  align-items: end;
+}
+
+.qr-code p {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 12px;
 }

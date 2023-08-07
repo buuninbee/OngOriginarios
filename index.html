@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,9 +11,10 @@
     <link rel="stylesheet" href="./css/style.css">
 
 </head>
+
 <body>
     <header class="header-bg">
-        <nav>
+        <!-- <nav>
             <ul class="nav-list">
                 <li> <a href="#">Home</a></li>
                 <li><a href="#">Doaçao</a></li>
@@ -24,12 +26,12 @@
                 <li><a href="./cadastro.html">Cadastro</a></li>
                 <li id="btn-login"><a href="./login.html">Login</a></li>
             </ol>
-        </nav>
+        </nav> -->
     </header>
 
     <main>
         <section>
-            <div class="carousel slide" id="demo" data-bs-ride="carousel" >
+            <div class="carousel slide" id="demo" data-bs-ride="carousel">
                 <div class="carousel-indicators">
                     <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
                     <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
@@ -37,9 +39,10 @@
                 </div>
                 <!-- SLIDER -->
                 <div class="carousel-inner" style="height: 900px; overflow: hidden;">
-                    <div class="carousel-item active slide1"> 
-                        <h2>Sua ajuda pode apoiar mais de 300 familias </h2>
-                        <img src="./img/indigenas-slide11.jpg" alt="" class="d-block" style="width: 100%; object-position: center;" >
+                    <div class="carousel-item active slide1">
+                        <!-- <h2>Sua ajuda pode apoiar mais de 300 familias </h2> -->
+                        <img src="./img/indigenas-slide11.jpg" alt="" class="d-block"
+                            style="width: 100%; object-position: center;">
                     </div>
                     <div class="carousel-item slide2">
                         <img src="./img/crianças-slide2.jpg" alt="" class="d-block" style="width: 100%; ">
@@ -53,27 +56,40 @@
         </section>
 
         <section>
-            <div class="d-flex infos-container">
-            <video src="./img/Brincadeira das crianças guarani _ Indigena Digital (online-video-cutter.com).mp4" loop autoplay muted></video>
+            <div class="d-grid infos-container container-fluid  ">
+                <div class="container-video">
+                    <div class="video-caixa col-8">
+                        <video
+                            src="./img/Brincadeira das crianças guarani _ Indigena Digital (online-video-cutter.com).mp4"
+                            loop autoplay muted></video>
+                    </div>
+                </div>
 
-            <div class="infos-bg">
-                <div class="infos-textos">
-                    <h2>Auxíliamos cerca de 43% dos povos indigenas</h2>
-                    <h2>Ajudamos a construir 3 escolas em menos de 1 ano</h2>
-                    <h2>Vacinamos mais de 4.288 crianças contra Hepatite B, Polio inativada, Rotavírus e Febre amarela</h2>
+                <div class="infos-bg col-4">
+                    <div class="infos-textos">
+                        <p>Auxíliamos cerca de 43% dos povos indigenas</p>
+                        <p>Ajudamos a construir 3 escolas em menos de 1 ano</p>
+                        <p>Vacinamos mais de 4.288 crianças contra Hepatite B, Polio inativada, Rotavírus e Febre
+                            amarela</p>
+                    </div>
                 </div>
             </div>
-        </div>
         </section>
 
         <section>
-            <div class="bg-trabalhos">
+            <div class="bg-trabalhos container-fluid ">
                 <div class="trabalhos-infos">
                     <div class="trabalho-text">
                         <h2>Onde nós Trabalhamos ?</h2>
                         <p>Estamos presente em mais de 55% dos estados demarcadas e em demarcaçãoz</p>
                     </div>
                 </div>
+
+
+                <div class="">
+                    <img src="./img/video-brasil-unscreen.gif" alt="">
+                </div>
+
             </div>
         </section>
 
@@ -83,33 +99,41 @@
         <div class="conteudo-footer">
             <span> Obrigado por nós visitar</span>
 
+            <div class="qr-code">
+                <div class="card">
+                    <img src="./img/qr-code.jpg" class="card-img-top" alt="qr code para fazer uma doação">
+                    <p>Faça uma Doação</p>
+                </div>
+            </div>
+
+
             <div class="meios">
-            <div class="contato-meios">
-                <h3>Contato</h3>
-                <ul>
-                    <li><a href="mailto:ongoriginario">ongoriginario@gmail.com</a></li>
-                    <li><a href="tel:+556193182872">61 993182872</a></li>
-                </ul>
+                <div class="contato-meios">
+                    <h3>Contato</h3>
+                    <ul>
+                        <li><a href="mailto:ongoriginario">ongoriginario@gmail.com</a></li>
+                        <li><a href="tel:+556193182872">61 993182872</a></li>
+                    </ul>
+                </div>
+
+                <div class="contato-redes">
+                    <h3>Redes</h3>
+                    <ul>
+                        <li><a href=".#">Instagram</a></li>
+                        <li><a href="#">Facebook</a></li>
+                        <li><a href="#">Youtube</a></li>
+                    </ul>
+                </div>
+
             </div>
 
-            <div class="contato-redes">
-                <h3>Redes</h3>
-                <ul>
-                    <li><a href=".#">Instagram</a></li>
-                    <li><a href="#">Facebook</a></li>
-                    <li><a href="#">Youtube</a></li>
-                </ul>
-            </div>
-
-        </div>
-
-        <h2>Junte-se a nós </h2>
+            <h2>Junte-se a nós </h2>
         </div>
     </footer>
-
 
     <script src="./bootstrapjs/bootstrap.bundle.js"></script>
     <script src="./bootstrapjs/bootstrap.bundle.min.js"></script>
 
 </body>
+
 </html>

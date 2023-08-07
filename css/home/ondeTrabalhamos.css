@@ -1,0 +1,12 @@
+.bg-trabalhos {
+  background-color: var(--bg-secundario);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  align-content: center;
+}
+
+.trabalhos-infos {
+  display: flex;
+  align-items: center;
+}
