@@ -15,7 +15,7 @@ footer a:hover {
 
 .conteudo-footer {
   display: grid;
-  grid-template-columns: 1.5fr auto 1fr;
+  grid-template-columns: 1.5fr 1fr auto;
 }
 
 .conteudo-footer h2 {
@@ -33,7 +33,7 @@ footer a:hover {
   background-repeat: no-repeat;
   background-position: right;
   left: 292px;
-  top: -48px;
+  top: -76px;
 }
 
 .contato-meios h3,
@@ -74,4 +74,20 @@ footer a:hover {
   margin: 0;
   padding: 0;
   padding-bottom: 12px;
+}
+
+
+@media (max-width:1220px) {
+  .conteudo-footer{
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+  }
+
+  .conteudo-footer h2 {
+    grid-row: 2;
+  }
+
+  .qr-code{
+    grid-column: 2;
+  }
 }

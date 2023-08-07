@@ -1,0 +1,38 @@
+.missaoEvissao {
+    background-color: #182016;
+    padding: 120px 80px;
+    color: #fff;
+}
+
+.missaoEvissao .titulo{
+    max-width: 8ch;
+    font-size: 6rem;
+    color: #dfdfdf;
+}
+.missaoEvissao > .subtitulo {
+    max-width: 68ch;
+}
+
+.container-somos {
+    gap: 60px;
+    padding: 120px 80px;
+}
+
+.text-somos {
+    display: grid;
+    max-width: 800px;
+}
+
+.text-somos h2 {
+    color: #dfdfdf;
+}
+
+.text-somos p, li {
+    font-size: 20px;
+    color: #dbdada;
+}
+
+.text-somos ul {
+    display: grid;
+    gap: 12px;
+}

@@ -1,12 +1,13 @@
 .infos-container {
   padding: 160px 20px;
   display: grid;
-  grid-template-columns: 2fr 1fr;
+  grid-template-columns: 1fr 1fr;
 }
 
 .container-video {
   max-width: 1050px;
   min-width: 400px;
+  padding-left: 60px;
 }
 
 .video-caixa {
@@ -33,15 +34,15 @@
   display: grid;
   align-content: center;
   /* gap: 20px; */
-  /* max-width: 500px; */
+  max-width: 600px;
   padding: 50px 16px;
-  /* padding-left: 30px; */
+  padding-left: 30px;
   background-color: var(--bg-infos);
   box-shadow: inset 0 40px #485746, inset 0 -40px #485746;
 }
 
 .infos-textos p {
   color: var(--color-principal);
-  font-size: 1rem;
+  font-size: 1.4rem;
   margin: 0;
 }
