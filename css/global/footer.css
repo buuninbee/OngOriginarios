@@ -88,6 +88,42 @@ footer a:hover {
   }
 
   .qr-code{
-    grid-column: 2;
+    display: none;
+  }
+}
+
+@media (max-width:1200px) {
+  .card {
+    width: 140px;
+    justify-items: left;
+    justify-content: left;
+  }
+
+  .meios{
+    justify-content: right;
+  }
+}
+
+@media (max-width:919px) {
+  .conteudo-footer h2::after {
+    left: -92px;
+    top: -20px;
+  }
+  
+}
+
+@media (max-width:780px) {
+  .conteudo-footer  {
+    grid-template-columns: 1fr;
+  }
+
+  .meios{
+    justify-content: left;
+    grid-row: 2;
+    width: 100%;
+  }
+
+  .conteudo-footer h2{
+    grid-row: 3;
   }
 }

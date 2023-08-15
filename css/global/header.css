@@ -1,12 +1,17 @@
 .header-bg {
-    /* background: linear-gradient(180deg, #141414 20%, #182017 70%);  */
     background-color: #121b10;
+    padding: 14px 0;
+}
+
+.logo{
+    margin-top: 15px;
 }
 
 nav {
     display: flex;
     place-content: center;
     align-items: center;
+    flex-wrap: wrap;
     margin: 0 120px; 
     justify-content: space-between;
 }
