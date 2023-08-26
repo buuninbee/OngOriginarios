@@ -1,38 +1,49 @@
 .missaoEvissao {
-    background-color: #182016;
-    padding: 120px 80px;
-    color: #fff;
+  background-color: var(--bg-text-titulos);
+  padding: 100px 80px;
+  color: var(--color-principal);
 }
 
-.missaoEvissao .titulo{
-    max-width: 8ch;
-    font-size: 6rem;
-    color: #dfdfdf;
+.missaoEvissao .font-1-xxl {
+  max-width: 8ch;
+  font-size: 5rem;
+  color: var(--color-segundario);
 }
-.missaoEvissao > .subtitulo {
-    max-width: 68ch;
+
+.missaoEvissao > .font-2-l {
+  max-width: 68ch;
 }
 
 .container-somos {
-    gap: 60px;
-    padding: 120px 80px;
+  gap: 60px;
+  padding: 120px 80px;
 }
 
 .text-somos {
-    display: grid;
-    max-width: 800px;
+  display: grid;
+  max-width: 800px;
 }
 
 .text-somos h2 {
-    color: #dfdfdf;
+  color: var(--color-principal);
 }
 
-.text-somos p, li {
-    font-size: 20px;
-    color: #dbdada;
+.text-somos p,
+li {
+  color: var(--color-segundario);
 }
 
 .text-somos ul {
-    display: grid;
-    gap: 12px;
+  display: grid;
+  gap: 12px;
+}
+
+@media (max-width: 500px) {
+  .missaoEvissao .font-1-xxl {
+    font-size: 3rem;
+  }
+
+  .missaoEvissao {
+    padding: 60px 20px;
+  }
 }

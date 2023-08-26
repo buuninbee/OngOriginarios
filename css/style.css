@@ -1,17 +1,14 @@
-
 /* QuemSomos */
 @import "./quemsomos/quemsomos.css";
 
 /* Login */
 @import "./login/login.css";
 
-
 /* esqueciSenha */
 @import "./esquecisenha/esquecisenha.css";
 
 /* cadastro */
 @import "./cadastro/cadastro.css";
-
 
 /* Global */
 @import "./global/global.css";
@@ -23,12 +20,8 @@
 @import "./home/indrotuçao.css";
 @import "./home/ondeTrabalhamos.css";
 
-
 /* colors */
 @import "./colors/color.css";
 
 /* fonts */
-@import "./fontes/fontes.css";
-
-
-
+@import "./tipografia/tipografia.css";

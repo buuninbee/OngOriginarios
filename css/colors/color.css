@@ -1,9 +1,10 @@
 :root {
-    --bg-body: #485746;
-    --bg-footer: #1F291D;
-    --bg-input: #212820;
-    --bg-infos: #141B13;
-    --bg-secundario: #0F1C0D;
-    --color-principal: #ffffff;
-
+  --bg-body: #485746;
+  --bg-footer: #1f291d;
+  --bg-input: #212820;
+  --bg-infos: #141b13;
+  --bg-secundario: #0f1c0d;
+  --color-principal: #ffffff;
+  --color-segundario: #dfdfdf;
+  --bg-text-titulos: #182016;
 }

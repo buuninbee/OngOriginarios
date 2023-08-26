@@ -1,42 +1,76 @@
-.bg-img img{
-    background-color: aqua;
+.slide1,
+.slide2,
+.slide3 {
+  background: linear-gradient(90deg, #070707 0%, rgba(52, 48, 48, 0) 100%);
+  position: relative;
+}
+
+.slide1 img {
+  width: 100%;
 }
 
 .img-slide1 {
-    background-image: url(../../img/indigenas-slide11.jpg);
-    background-position: center ;
-    background-size: cover;
-    width: 100%;
-    height: 900px;
+  background-image: url(../../img/indigenas-slide11.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 900px;
 }
 
 .img-slide2 {
-    background-image: url(../../img/crianças-slide2.jpg);
-    background-position: center ;
-    background-size: cover;
-    width: 100%;
-    height: 900px;
+  background-image: url(../../img/crianças-slide2.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 900px;
 }
 
 .img-slide3 {
-    background-image: url(../../img/crianças-slide3.jpg);
-    background-position: center ;
-    background-size: cover;
-    width: 100%;
-    height: 900px;
+  background-image: url(../../img/crianças-slide3.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 900px;
 }
 
 .text-img {
-    background: linear-gradient(90deg, #070707 0%, rgba(52, 48, 48, 0.00) 100%);
-    display: grid;
-    align-content: center;
-    width: 80%;
-    height: 900px;
-    padding-left: 320px;
-    color: #fff;
+  background: linear-gradient(90deg, #070707 0%, rgba(52, 48, 48, 0) 100%);
+  display: grid;
+  align-content: center;
+  width: 80%;
+  height: 900px;
+  padding-left: 320px;
+  color: var(--color-principal);
 }
 
 .text-img h2 {
-   max-width: 800px;
+  max-width: 800px;
+  font-weight: 400;
 }
 
+@media (max-width: 1400px) {
+  .text-img {
+    padding-left: 200px;
+  }
+}
+
+@media (max-width: 800px) {
+  .text-img {
+    padding-left: 100px;
+  }
+
+  .carousel-control-next,
+  .carousel-control-prev {
+    display: none;
+  }
+
+  .text-img h2 {
+    font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 800px) {
+  .text-img {
+    padding-left: 50px;
+  }
+}
