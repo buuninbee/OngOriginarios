@@ -5,6 +5,11 @@
   position: relative;
 }
 
+.carousel-inner {
+  height: 900px;
+  overflow: hidden;
+}
+
 .slide1 img {
   width: 100%;
 }
@@ -63,14 +68,25 @@
   .carousel-control-prev {
     display: none;
   }
-
-  .text-img h2 {
-    font-size: 2.5rem;
-  }
 }
+
 
 @media (max-width: 800px) {
   .text-img {
     padding-left: 50px;
+    max-height: 500px;
+    padding-bottom: 150px;
+  }
+
+  .img-slide1, .img-slide2, .img-slide3 {
+    max-height: 500px;
+  }
+
+  .carousel-inner {
+    max-height: 400px;
+  }
+
+  .logo{
+    width: 160px;
   }
 }

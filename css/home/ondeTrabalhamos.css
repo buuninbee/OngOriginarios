@@ -21,10 +21,6 @@
   padding-bottom: 12px;
 }
 
-.trabalho-text p {
-  margin: 0;
-}
-
 .mapa {
   display: flex;
   justify-content: center;
@@ -39,12 +35,26 @@
 
   .bg-trabalhos h2 {
     margin: 0;
-    padding: 0;
+    padding-bottom: 16px;
   }
 
   .bg-trabalhos p {
     margin: 0;
     padding-bottom: 10px;
     max-width: 52ch;
+  }
+}
+
+@media (max-width: 500px) {
+  .mapa img {
+    max-width: 300px;
+  }
+
+  .trabalho-text p {
+    font-size: 16px;
+  }
+
+  .bg-trabalhos {
+    padding: 80px 40px;
   }
 }

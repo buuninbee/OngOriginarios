@@ -121,9 +121,15 @@ footer a:hover {
     justify-content: left;
     grid-row: 2;
     width: 100%;
+    grid-template-columns: 1fr 1fr;
   }
 
   .conteudo-footer h2{
     grid-row: 3;
   }
+
+  .contato-meios ul,
+.contato-redes ul{
+  padding-left: 0;
+}
 }

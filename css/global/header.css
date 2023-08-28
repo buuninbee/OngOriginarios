@@ -98,3 +98,18 @@ nav li {
     display: block;
   }
 }
+
+
+@media (max-width: 800px)  {
+  nav{
+    margin: 0 44px;
+  }
+}
+
+
+@media (max-width: 600px)  {
+  nav{
+    margin: 0 40px;
+  }
+}
+

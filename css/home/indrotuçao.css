@@ -78,12 +78,50 @@
 @media (max-width: 1000px) {
   .infos-container {
     grid-template-columns: 1fr;
+    padding: 100px 40px;
+  }
+
+  .infos-bg {
+    max-width: 94%;
   }
 
   .infos-textos {
     box-shadow: none;
     align-content: center;
     max-width: 100%;
-    /* padding: 70px 16px 30px 16px; */
+  }
+
+  .infos-textos{
+   justify-items: center;
+  }
+
+  .infos-textos p {
+    max-width: 40ch;
+  }
+}
+
+@media (max-width: 500px) { 
+  .infos-bg {
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+  }
+  .infos-textos {
+    margin-left: 10px;
+    padding: 20px 40px;
+  }
+  
+  .infos-container {
+    padding: 100px 10px;
+  }
+
+  .video-caixa {
+    padding-bottom: 56.25%;
+  }
+
+  .container-video {
+    max-width: 1050px;
+    min-width: 200px;
+    padding-left: 10px;
   }
 }
