@@ -125,3 +125,14 @@
     padding-left: 10px;
   }
 }
+
+@media (max-width: 500px) {
+.infos-textos p{
+  font-size: 0.9rem;
+}
+
+.infos-textos p::before {
+  left: -14px;
+  top: -1px;
+}
+}

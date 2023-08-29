@@ -133,3 +133,17 @@ footer a:hover {
   padding-left: 0;
 }
 }
+
+@media (max-width:500px) {
+  footer{
+    padding: 60px 40px;
+  }
+
+  .conteudo-footer h2{
+    font-size: 2rem;
+  }
+
+  .conteudo-footer h2::after {
+    display: none;
+  }
+}

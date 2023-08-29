@@ -58,3 +58,9 @@
     padding: 80px 40px;
   }
 }
+
+@media (max-width: 500px) {
+  .mapa img {
+    max-width: 250px;
+  }
+}
