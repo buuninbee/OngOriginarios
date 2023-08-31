@@ -20,6 +20,7 @@ nav {
   display: flex;
   place-content: center;
   margin: 0 40px;
+  gap: 20px;
 }
 
 nav li {
@@ -49,6 +50,17 @@ nav li {
   width: 100%;
 }
 
+.nav-list li:nth-child(4)::after {
+  content: "";
+  position: absolute;
+  background: url(../../img/icones/seta-info.svg) no-repeat;
+  width: 32px;
+  height: 32px;
+  left: 146px;
+  top: 16px;
+  transform: rotate(90deg)
+}
+
 #entrar {
   display: flex;
   flex-wrap: wrap;
@@ -71,37 +83,29 @@ nav li {
   padding: 12px 28px;
 }
 
-.mobile-menu {
+.mobile-menu, .mobile-menu-icon, .li-list-mobile {
   display: none;
 }
 
-.mobile-menu-icon {
-  display: none;
-}
 
 .mobile-menu-icon button {
   background-color: #1d3319;
-  width: 62px;
-  height: 44px;
-  padding-top: 4px;
+  width: 52px;
+  height: 40px;
   border-radius: 6px;
   border: none;
 }
 
 .mobile-menu {
-  display: grid;
+  display: none;
   place-items: start;
   padding: 20px 40px;
   position: relative;
 }
 
 .mobile-menu ul {
-display: grid;
-gap: 6px;
-}
-
-.li-list-mobile{
-  display: none;
+ display: grid;
+ gap: 6px;
 }
 
 .mobile-menu ul a {
@@ -125,6 +129,7 @@ gap: 6px;
   gap: 12px;
   border-top: 1px solid #858585;
   width: 100%;
+  padding-top: 14px;
 }
 
 @media (max-width: 1500px) {
@@ -136,12 +141,41 @@ gap: 6px;
   .mobile-menu-icon {
     display: block;
   }
+
+  .mobile-menu {
+    padding: 20px 60px 20px 20px;
+  }
+
+  .mobile-menu > ul{
+    padding: 0 48px;
+  }
+
+  #mobile-li::after{
+    left: 240px;
+    top: 152px;
+  }
+}
+
+@media (max-width: 1200px) {
+  #mobile-li::after {
+    left: 190px;
+  top: 120px;
+  }
 }
 
 
 @media (max-width: 800px)  {
   nav{
     margin: 0 44px;
+  }
+
+  .mobile-menu {
+    padding: 20px 28px 20px 4px;
+  }
+
+  #mobile-li::after {
+    left: 170px;
+    top: 120px;
   }
 }
 
@@ -155,5 +189,18 @@ gap: 6px;
 @media (max-width: 400px)  {
   nav{
     margin: 0 14px;
+  }
+
+  .mobile-menu {
+    padding: 20px 28px 0px 14px;
+  }
+
+  .mobile-menu > ul{
+    padding-left: 8px;
+  }
+
+  #mobile-li::after {
+    left: 150px;
+    top: 120px;
   }
 }

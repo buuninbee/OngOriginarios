@@ -19,16 +19,21 @@
                 <img class="logo" src="./img/icones/icone-originarios.svg" width="225" alt="icone da ong originarios">
             </a>
 
-            <ul class="nav-list">
+            <ul class="nav-list font-2-l">
                 <li> <a href="#">Home</a></li>
                 <li><a href="#">Doaçao</a></li>
                 <li><a href="#">Fotos</a></li>
-                <li> <a href="../OngOriginarios/quem-somos.html">Quem somos ?</a></li>
+                <li> Quem somos?
+                    <ul>
+                        <li class="li-list-mobile"><a href="./quem-somos.html">Missão & Visão</a></li>
+                        <li class="li-list-mobile"><a href="./quem-somos.html">Como trabalhamos</a></li>
+                    </ul>
+                </li>
                 <li><a href="#">Como posso ajudar ?</a></li>
 
             </ul>
 
-            <ul id="entrar">
+            <ul id="entrar" class="font-2-l">
                 <li><a href="./cadastro.html">Cadastro</a></li>
                 <li id="btn-login"><a href="./login.html">Login</a></li>
             </ul>
@@ -40,17 +45,17 @@
         </nav>
 
         <div class="mobile-menu">
-            <ul>
+            <ul class="font-2-l">
                 <li>
-                    <a class="font-2-l" href="./index.html">Home</a>
+                    <a href="./index.html">Home</a>
                 </li>
 
                 <li>
-                    <a class="font-2-l" href="#sobre-mim">Doação</a>
+                    <a href="#sobre-mim">Doação</a>
                 </li>
 
                 <li>
-                    <a class="font-2-l" href="#habildades">Fotos</a>
+                    <a href="#habildades">Fotos</a>
                 </li>
 
                 <li id="mobile-li" ><span class="font-2-l"> Quem somos ?</span>
@@ -61,13 +66,13 @@
                 </li>
 
                 <li class="font-2-l">
-                    <a href="./contato.html">Como posso ajudar ?</a>
+                    <a href="./">Como posso ajudar ?</a>
                 </li>
             </ul>
 
-            <ul id="entrar-mobile">
-                <li><a href="./cadastro.html">Cadastro</a></li>
-                <li><a href="./login.html">Login</a></li>
+            <ul id="entrar-mobile" class="font-2-l">
+                <li class="font-2-l" ><a href="./cadastro.html">Cadastro</a></li>
+                <li class="font-2-l"><a href="./login.html">Login</a></li>
             </ul>
         </div>
     </header>
@@ -235,7 +240,7 @@
             <div class="meios">
                 <div class="contato-meios">
                     <h3 class="font-2-l ">Contato</h3>
-                    <ul>
+                    <ul class="font-2-s">
                         <li><a href="mailto:ongoriginario">ongoriginario@gmail.com</a></li>
                         <li><a href="tel:+556193182872">61 993182872</a></li>
                     </ul>
@@ -243,7 +248,7 @@
 
                 <div class="contato-redes">
                     <h3 class="font-2-l">Redes</h3>
-                    <ul>
+                    <ul class="font-2-s">
                         <li><a href=".#">Instagram</a></li>
                         <li><a href="#">Facebook</a></li>
                         <li><a href="#">Youtube</a></li>
@@ -264,9 +269,9 @@
     </footer>
 
     <script src="./js/jquery-3.7.0.js.js"></script>
-    <script src="./js/index.js"></script>
     <script src="./bootstrapjs/bootstrap.bundle.js"></script>
     <script src="./bootstrapjs/bootstrap.bundle.min.js"></script>
+    <script src="./js/index.js"></script>
 </body>
 
 </html>

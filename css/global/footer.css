@@ -1,12 +1,15 @@
 footer {
-  background-color: #1f291d;
+  background-color: var(--bg-footer);
   padding: 40px 100px;
-  color: #fff;
 }
 
 footer a {
-  color: #fff;
+  color: var(--color-principal);
   text-decoration: none;
+}
+
+.meios h3 {
+  color: var(--color-principal);
 }
 
 footer a:hover {
@@ -21,6 +24,7 @@ footer a:hover {
 .conteudo-footer h2 {
   font-size: 3.5rem;
   position: relative;
+  color: var(--color-principal);
 }
 
 .conteudo-footer h2::after {
@@ -135,15 +139,35 @@ footer a:hover {
 }
 
 @media (max-width:500px) {
-  footer{
-    padding: 60px 40px;
-  }
-
   .conteudo-footer h2{
     font-size: 2rem;
   }
 
   .conteudo-footer h2::after {
     display: none;
+  }
+
+  .meios {
+    padding: 20px 20px 20px 0;
+  }
+
+  .conteudo-footer span{
+    font-size: 0.6rem;
+  }
+
+  .conteudo-footer h2{
+    margin: 0;
+    font-size: 2rem;
+  }
+
+  footer{
+    padding: 20px 40px;
+  }
+}
+
+@media (max-width:320px) {
+
+  .meios{
+    grid-template-columns: 1fr;
   }
 }
