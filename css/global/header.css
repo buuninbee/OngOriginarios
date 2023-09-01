@@ -74,7 +74,7 @@ nav li {
 
 #entrar a {
   text-decoration: none;
-  color: #fff;
+  color: var(--color-principal);
 }
 
 #btn-login {

@@ -10,6 +10,9 @@
 /* cadastro */
 @import "./cadastro/cadastro.css";
 
+/* doação */
+@import "./doação/doação.css";
+
 /* Global */
 @import "./global/global.css";
 @import "./global/footer.css";

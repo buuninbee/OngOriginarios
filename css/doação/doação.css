@@ -1,0 +1,80 @@
+.img-bg-doe {
+    background-image: url(../../img/indigena-animal.jpg) ;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 800px;
+}
+
+.bg-liner{
+    background: linear-gradient(90deg, #070707 0%, rgba(52, 48, 48, 0) 100%);
+    width: 100%;
+    height: 800px;
+}
+
+.doe-container{
+    background-color: var(--bg-infos);
+    color: var(--color-principal);
+    max-width: 1000px;
+    box-shadow: 0 -60px 0px #070707;
+    text-align: center;
+    border-radius: 6px;
+}
+
+body{
+   min-height: 2000px;
+}
+
+.doação-tipos {
+    max-width: 1440px !important;
+    margin: 0 auto !important;
+    justify-content: center !important;
+    align-items: center !important;
+    display: flex !important;
+    padding-bottom: 60px;
+    z-index: 2;
+}
+
+.doação-tit h1{
+    padding: 0;
+}
+
+
+.doação-tit {
+    padding: 68px 0;
+    background-color: var(--bg-infos);
+    width: 1000px;
+    margin: 10px auto 20px;
+    position: absolute;
+    z-index: 0;
+    bottom: -37px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.doação-tipos a{
+    padding: 12px 10px;
+    background-color: var(--bg-input);
+    text-decoration: none;
+    border-radius: 4px;
+    color: var(--color-principal);
+    text-align: center;
+}
+
+.doação-tipos {
+    gap: 60px;
+}
+
+.doação-mensal, .doação-unica{
+    margin: 0 20px;
+}
+
+@media (max-width: 1000px) {
+    .doação-tit {
+        padding: 40px 0;
+    }
+
+    .doação-tipos {
+        gap: 10px;
+    }
+}
