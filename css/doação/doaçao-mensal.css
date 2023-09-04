@@ -1,0 +1,152 @@
+#doe-mensal .img-bg-doe {
+    background-image: url(../../img/indigenas-doação.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 800px;
+}
+  
+#doe-mensal .bg-liner {
+    background: linear-gradient(90deg, #070707 0%, rgba(52, 48, 48, 0) 100%);
+    width: 100%;
+    height: 800px;
+}
+
+.doação-valores{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  max-width: 1440px;
+  margin: 0 20px;
+  padding: 60px;
+  gap: 60px;
+  z-index: 2;
+}
+
+.doação-valores > div{
+    background-color: var(--bg-footer);
+    padding: 20px 14px;
+    border-radius: 4px;
+}
+
+.doação-valor4{
+    padding: 8px 6px;
+}
+
+.doação-valor4 p{
+    margin: 0;
+    padding: 0;
+}
+
+.doação-valor > div{
+   margin-top: 10px;
+}
+
+
+.doação-valor a{
+    text-decoration: none;
+    font-size: 28px;
+    color:var(--color-segundario) ;
+}
+
+.input-outro-valor{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    gap: 12px;
+}
+
+.doe-links{
+    display: grid;
+    place-items: center;
+    gap: 16px;
+}
+
+.doe-links a{
+    text-decoration: none;
+}
+
+#doe-agora{
+    padding: 10px 8px;
+    background-color: var(--bg-footer);
+    border-radius: 4px;
+    color: var(--color-principal);
+}
+
+#outra-forma-doar{
+    color: var(--color-principal);
+    border-bottom: 1px solid #b4b4b4;
+}
+
+#doe-mensal .doe-container{
+    margin-bottom: 120px;
+    padding-bottom: 60px;
+}
+
+@media (max-width: 1000px) {
+ .doação-valores{
+    padding: 40px;
+    gap: 12px;
+ }
+
+ #doe-mensal .doação-tit {
+    grid-template-columns: 500px;
+    border-radius: 25% 25% 0 0;
+  }
+
+  #doe-mensal .doação-tit {
+    top: 680px;
+  }
+}
+
+@media (max-width: 700px) {
+    .doação-valores{
+        display: grid;
+        grid-template-rows: auto auto;
+    }
+
+    .doação-valor a{
+        font-size: 22px;
+    }
+
+    .doação-valores > div {
+        padding-top: 10px;
+    }
+
+    .doação-valor4 p {
+        font-size: 16px;
+        padding-bottom: 4px;
+    }
+
+    .input-outro-valor{
+        height: 20px;
+        align-content: center;
+        justify-content: center;
+    }
+
+    .doação-valores{
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .doação-valor4{
+        grid-column: 1 / -1;
+    }
+}
+
+@media (max-width: 500px){
+    #doe-mensal .doação-tit{
+       grid-template-columns: 340px;
+    }
+}
+
+@media (max-width: 400px) {
+    .doação-valores > div {padding: 0;}
+
+    .doação-valor > div{
+        margin: 0;
+    }
+
+    .doação-valor4 {
+        padding: 8px 0;
+    }
+}

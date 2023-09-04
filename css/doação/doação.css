@@ -26,6 +26,15 @@ body {
   position: relative;
 }
 
+#doe .mobile-menu {
+    display: none;
+    place-items: start;
+    padding: 20px 40px;
+    position: absolute;
+    background-color: #121b10;
+    width: 100%;
+  }
+
 .doação-tit {
   padding: 60px 70px 20px 70px;
   background-color: var(--bg-infos);
@@ -74,7 +83,7 @@ body {
 
 .recurso-container {
   grid-template-columns: 1fr 1fr;
-  padding: 80px 60px;
+  padding: 120px 60px;
   place-items: center;
   gap: 30px;
 }
@@ -85,12 +94,9 @@ body {
 }
 
 .feitos {
-  padding: 0 0 80px 0;
+  padding: 0 0 120px 0;
 }
 
-.qr-code .card {
-  display: none;
-}
 
 @media (max-width: 1200px) {
   .doação-tipos {
@@ -138,6 +144,7 @@ body {
   .doação-tit {
     display: grid;
     grid-template-columns: 718px;
+    top: 490px;
   }
 
   .doação-tit h1 {
@@ -147,17 +154,26 @@ body {
 
   .doação-tipos {
     grid-template-columns: 1fr;
-    gap: 60px;
+    gap: 40px;
   }
 
   .doe-container {
     max-width: 720px;
   }
+
+  .bg-liner, .img-bg-doe {
+    height: 600px;
+  }
 }
 
 @media (max-width: 746px) {
   .doação-tit {
-    grid-template-columns: 400px;
+    grid-template-columns: 500px;
+    border-radius: 25% 25% 0 0;
+  }
+
+  .doe-container{
+    border-radius:0 0 25% 25% ;
   }
 
   .doação-tit h1 {
@@ -173,6 +189,12 @@ body {
   .feitos {
     padding: 60px 20px;
   }
+}
+
+@media (max-width: 500px){
+.doação-tit{
+    grid-template-columns: 340px;
+}
 }
 
 @media (max-width: 420px) {
