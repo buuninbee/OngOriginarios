@@ -14,3 +14,23 @@ btnmenu.on("click", () => {
     menumobile.classList.add("open");
   }
 });
+
+const drop = document.querySelector(".mobile-li");
+
+drop.addEventListener("click", () => {
+  let desceMenu = document.querySelector(".drop-down");
+
+  if (desceMenu.classList.contains("open")) {
+    desceMenu.classList.remove("open");
+    desceMenu.style.display = "grid";
+    let setaicon = document.querySelector(".icon-seta");
+    setaicon.style.transform = "rotate(-90deg)";
+    setaicon.style.transition = ".5s";
+  } else {
+    desceMenu.classList.add("open");
+    desceMenu.style.display = "none";
+    desceMenu.classList.add("open");
+    let setaicon = document.querySelector(".icon-seta");
+    setaicon.style.transform = "rotate(90deg)";
+  }
+});

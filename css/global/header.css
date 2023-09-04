@@ -50,15 +50,10 @@ nav li {
   width: 100%;
 }
 
-.nav-list li:nth-child(4)::after {
-  content: "";
-  position: absolute;
-  background: url(../../img/icones/seta-info.svg) no-repeat;
-  width: 32px;
-  height: 32px;
-  left: 146px;
-  top: 16px;
-  transform: rotate(90deg)
+.mobile-li img {
+  width: 28px;
+  height: 28px;
+  transform: rotate(90deg);
 }
 
 #entrar {
@@ -83,10 +78,11 @@ nav li {
   padding: 12px 28px;
 }
 
-.mobile-menu, .mobile-menu-icon, .li-list-mobile {
+.mobile-menu,
+.mobile-menu-icon,
+.li-list-mobile {
   display: none;
 }
-
 
 .mobile-menu-icon button {
   background-color: #1d3319;
@@ -104,8 +100,8 @@ nav li {
 }
 
 .mobile-menu ul {
- display: grid;
- gap: 6px;
+  display: grid;
+  gap: 6px;
 }
 
 .mobile-menu ul a {
@@ -113,7 +109,7 @@ nav li {
   color: var(--color-principal);
 }
 
-#mobile-li::after{
+#mobile-li::after {
   content: "";
   position: absolute;
   background: url(../../img/icones/seta-info.svg) no-repeat;
@@ -121,15 +117,22 @@ nav li {
   height: 32px;
   left: 300px;
   top: 152px;
-  transform: rotate(90deg)
+  transform: rotate(90deg);
 }
 
-#entrar-mobile{
+#entrar-mobile {
   display: flex;
   gap: 12px;
   border-top: 1px solid #858585;
   width: 100%;
   padding-top: 14px;
+}
+
+.drop-down {
+  display: none;
+  padding-top: 6px;
+  padding-left: 20px;
+  gap: 8px;
 }
 
 @media (max-width: 1500px) {
@@ -146,11 +149,11 @@ nav li {
     padding: 20px 60px 20px 20px;
   }
 
-  .mobile-menu > ul{
+  .mobile-menu > ul {
     padding: 0 48px;
   }
 
-  #mobile-li::after{
+  #mobile-li::after {
     left: 240px;
     top: 152px;
   }
@@ -159,13 +162,12 @@ nav li {
 @media (max-width: 1200px) {
   #mobile-li::after {
     left: 190px;
-  top: 120px;
+    top: 120px;
   }
 }
 
-
-@media (max-width: 800px)  {
-  nav{
+@media (max-width: 800px) {
+  nav {
     margin: 0 44px;
   }
 
@@ -179,15 +181,14 @@ nav li {
   }
 }
 
-
-@media (max-width: 600px)  {
-  nav{
+@media (max-width: 600px) {
+  nav {
     margin: 0 40px;
   }
 }
 
-@media (max-width: 400px)  {
-  nav{
+@media (max-width: 400px) {
+  nav {
     margin: 0 14px;
   }
 
@@ -195,7 +196,7 @@ nav li {
     padding: 20px 28px 0px 14px;
   }
 
-  .mobile-menu > ul{
+  .mobile-menu > ul {
     padding-left: 8px;
   }
 

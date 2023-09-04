@@ -12,6 +12,7 @@
 
 /* doação */
 @import "./doação/doação.css";
+@import "./doação/doaçao-mensal.css";
 
 /* Global */
 @import "./global/global.css";
