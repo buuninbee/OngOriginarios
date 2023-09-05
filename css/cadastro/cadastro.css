@@ -119,14 +119,6 @@ h1 {
   border-bottom: 1px solid #0a0909;
 }
 
-#cadastrobody > #entrar-mobile {
-  opacity: 0;
-}
-
-#cadastrobody > nav #entrar {
-  opacity: 0;
-}
-
 @media (max-width: 1400px) {
   .form-input {
     grid-template-columns: 1fr;
@@ -158,6 +150,16 @@ h1 {
   .form-input button {
     margin-top: 40px;
   }
+
+  .tela-cadastro h1 {
+    padding-right: 140px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .tela-cadastro h1 {
+    padding-right: 140px;
+  }
 }
 
 @media (max-width: 1000px) {
@@ -171,5 +173,21 @@ h1 {
 
   .tela-cadastro {
     padding-bottom: 40px;
+  }
+
+  .tela-cadastro h1 {
+    padding-right: 0px;
+  }
+}
+
+@media (max-width: 500px) {
+  .tela-cadastro {
+    padding: 40px 60px;
+  }
+}
+
+@media (max-width: 400px) {
+  .form-input {
+    padding: 30px 40px;
   }
 }
