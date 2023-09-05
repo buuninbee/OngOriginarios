@@ -27,13 +27,13 @@ body {
 }
 
 #doe .mobile-menu {
-    display: none;
-    place-items: start;
-    padding: 20px 40px;
-    position: absolute;
-    background-color: #121b10;
-    width: 100%;
-  }
+  display: none;
+  place-items: start;
+  padding: 20px 40px;
+  position: absolute;
+  background-color: #121b10;
+  width: 100%;
+}
 
 .doação-tit {
   padding: 60px 70px 20px 70px;
@@ -96,7 +96,6 @@ body {
 .feitos {
   padding: 0 0 120px 0;
 }
-
 
 @media (max-width: 1200px) {
   .doação-tipos {
@@ -161,7 +160,8 @@ body {
     max-width: 720px;
   }
 
-  .bg-liner, .img-bg-doe {
+  .bg-liner,
+  .img-bg-doe {
     height: 600px;
   }
 }
@@ -172,8 +172,8 @@ body {
     border-radius: 25% 25% 0 0;
   }
 
-  .doe-container{
-    border-radius:0 0 25% 25% ;
+  .doe-container {
+    border-radius: 0 0 25% 25%;
   }
 
   .doação-tit h1 {
@@ -191,10 +191,10 @@ body {
   }
 }
 
-@media (max-width: 500px){
-.doação-tit{
+@media (max-width: 500px) {
+  .doação-tit {
     grid-template-columns: 340px;
-}
+  }
 }
 
 @media (max-width: 420px) {

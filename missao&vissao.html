@@ -8,8 +8,8 @@
     <title>Originarios | Quem Somos</title>
     <link rel="stylesheet" href="./bootstrapcss/bootstrap.css">
     <link rel="stylesheet" href="./bootstrapcss/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/styleclean.css">
     <link rel="stylesheet" href="./css/style.css">
-
 </head>
 
 <body>
@@ -19,18 +19,21 @@
                 <img class="logo" src="./img/icones/icone-originarios.svg" width="225" alt="icone da ong originarios">
             </a>
 
-            <ul class="nav-list">
-                <li> <a href="/index.html">Home</a></li>
-                <li><a href="#">Doaçao</a></li>
-                <li><a href="#">Fotos</a></li>
-                <li> <a href="./quem-somos.html">Quem somos ?</a></li>
+            <ul class="nav-list font-2-l">
+                <li> <a href="./index.html">Home</a></li>
+                <li><a href="./doação.html">Doaçao</a></li>
+                <li> Quem somos?
+                    <ul class="">
+                        <li class="li-list-mobile"><a href="./missao&vissao.html">Missão & Visão</a></li>
+                        <li class="li-list-mobile"><a href="./como-trabalhamos">Como trabalhamos</a></li>
+                    </ul>
+                </li>
                 <li><a href="#">Como posso ajudar ?</a></li>
 
             </ul>
 
-            <ul id="entrar">
+            <ul id="entrar" class="font-2-l">
                 <li><a href="./cadastro.html">Cadastro</a></li>
-                <li id="btn-login"><a href="./login.html">Login</a></li>
             </ul>
 
             <div class="mobile-menu-icon">
@@ -40,26 +43,30 @@
         </nav>
 
         <div class="mobile-menu">
-            <ul>
+            <ul class="font-2-l">
                 <li>
                     <a href="./index.html">Home</a>
                 </li>
 
                 <li>
-                    <a href="#sobre-mim">Doação</a>
+                    <a href="./doação.html">Doação</a>
                 </li>
 
-                <li>
-                    <a href="#habildades">Fotos</a>
+                <li class="mobile-li"><span class="font-2-l pegou"> Quem somos ?</span>
+                    <img class="icon-seta" src="./img/icones/seta-info.svg" alt="">
+                    <div class="drop-down open">
+                        <a class="font-2-m" href="./missao&vissao.html">Missão & Vissão</a>
+                        <a class="font-2-m" href="">Como trabalhamos ?</a>
+                    </div>
                 </li>
 
-                <li>
-                    <a href="./trabalhos.html">Quem somos ?</a>
+                <li class="font-2-l">
+                    <a href="">Como posso ajudar ?</a>
                 </li>
+            </ul>
 
-                <li>
-                    <a href="./contato.html">Como posso ajudar ?</a>
-                </li>
+            <ul id="entrar-mobile" class="font-2-l">
+                <li class="font-2-l"><a href="./cadastro.html">Cadastro</a></li>
             </ul>
         </div>
     </header>
@@ -157,8 +164,10 @@
         </div>
     </footer>
 
+    <script src="./js/jquery-3.7.0.js.js"></script>
     <script src="./bootstrapjs/bootstrap.bundle.js"></script>
     <script src="./bootstrapjs/bootstrap.bundle.min.js"></script>
+    <script src="./js/index.js"></script>
 </body>
 
 </html>

@@ -1,128 +1,175 @@
 .tela-cadastro {
-    display: grid;
-    grid-template-columns: 1300px;
-    justify-content: center;
-    padding: 80px 0 200px 0;
+  display: grid;
+  grid-template-columns: 1300px;
+  justify-content: center;
+  padding: 80px 0 200px 0;
 }
 
 .tela-cadastro span {
-    color: #fff;
-    padding-top: 40px;
+  color: var(--color-principal);
+  padding-top: 40px;
 }
 
 h1 {
-    grid-column: 1 / -1;
-    color: #fff;
-    padding: 16px 0 26px 0;
+  grid-column: 1 / -1;
+  color: var(--color-principal);
+  padding: 16px 0 26px 0;
 }
 
 #bg-img {
-    background-image: url(.././../img/pexels-leonardo-capitanio-13028676.jpg);
-    background-size: cover;
-    background-position: top left;
-    height: 100%;
-    border-radius: 6px 0 0 6px ;
+  background-image: url(.././../img/pexels-leonardo-capitanio-13028676.jpg);
+  background-size: cover;
+  background-position: top left;
+  height: 100%;
+  border-radius: 6px 0 0 6px;
 }
 
-
 .form-tela {
-    display: grid;
-    grid-template-columns: 700px 600px;
+  display: grid;
+  grid-template-columns: 700px 600px;
 }
 
 .form-input label {
-    display: block;
+  display: block;
 }
 
 .form-input {
-    display: grid;
-    grid-template-columns: repeat(2 , auto);
-    grid-template-rows: repeat(2, 50px);
-    background-color: #fff;
-    padding: 290px 80px;
-    border-radius: 0 6px 6px 0 ;
-    gap: 12px 0;
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  grid-template-rows: repeat(2, 50px);
+  background-color: var(--color-principal);
+  padding: 290px 80px;
+  border-radius: 0 6px 6px 0;
+  gap: 12px 0;
 }
-
 
 .form-input #nome {
-    margin-bottom: 80px;
-    margin-right: 6px;
+  margin-bottom: 80px;
+  margin-right: 6px;
 }
 
-.form-input input[type= email] {
-    padding-right: 220px;
-    margin-bottom: 26px;
+.form-input input[type="email"] {
+  padding-right: 220px;
+  margin-bottom: 26px;
 }
 
-.form-input label[type= email] {
-    margin-top: 52px;
+.form-input label[type="email"] {
+  margin-top: 52px;
 }
 
 .cidades {
-    max-height: 50px;
-    margin-top: 12px;
+  max-height: 50px;
+  margin-top: 12px;
 }
 
 .form-input select {
-    margin-top: 6px;
-    margin-bottom: 6px;
-    padding: 4px 22px;
-    border-radius: 2px;
+  margin-top: 6px;
+  margin-bottom: 6px;
+  padding: 4px 22px;
+  border-radius: 2px;
 }
 
-
 .form-input button {
-    border: none;
-    border-radius: 4px;
-    background: #1D2C1A;
-    color: #fff;
-    padding: 16px 60px ;
-    margin: 0px auto;
-    max-width: max-content;
-
-}
-
-
-.form-input button {
-    position: relative;
-    cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  background: var(--bg-infos);
+  color: var(--color-principal);
+  padding: 16px 40px;
+  margin: 0px auto;
+  max-width: max-content;
+  position: relative;
+  cursor: pointer;
 }
 
 .form-input button:hover:after {
-    content: " ";
-    display: block;
-    height: 34px;
-    width: 34px;
-    position: absolute;
-    background-image: url(../../img/Ok.png);
-    background-repeat: no-repeat;
-    background-position: right;
-    left: 116px;
-    top: 6px;
+  content: " ";
+  display: block;
+  height: 34px;
+  width: 34px;
+  position: absolute;
+  background-image: url(../../img/Ok.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  left: 16px;
+  top: 12px;
 }
 
 .form-input button:hover {
-    background-color: #254b1f;
-    padding: 16px 68px 16px 54px;
-    transition: 0.2s;
+  background-color: #193015;
+  padding: 16px 68px 16px 54px;
+  transition: 0.2s;
 }
 
 .span-2 {
-    grid-column: span 2;
+  grid-column: span 2;
 }
 
 .form-input label {
-    color: #302B2B;
-    margin-bottom: 6px;
+  color: #302b2b;
+  margin-bottom: 6px;
 }
 
 .form-input input {
-    border: none;
-    border-bottom: 1px solid #bbb1b1;
+  border: none;
+  border-bottom: 1px solid #bbb1b1;
 }
 
 .form-input input:focus {
-    outline: none;
-    border-bottom: 1px solid #0a0909;
+  outline: none;
+  border-bottom: 1px solid #0a0909;
+}
+
+#cadastrobody > #entrar-mobile {
+  opacity: 0;
+}
+
+#cadastrobody > nav #entrar {
+  opacity: 0;
+}
+
+@media (max-width: 1400px) {
+  .form-input {
+    grid-template-columns: 1fr;
+  }
+
+  .form-input div {
+    grid-column: 1;
+  }
+
+  .form-input input[type="email"] {
+    padding-right: 0px;
+    margin-bottom: 26px;
+  }
+
+  .tela-cadastro {
+    grid-template-columns: 1fr;
+    place-items: center;
+  }
+
+  .form-tela {
+    grid-template-columns: 500px 400px;
+  }
+
+  #bg-img {
+    max-width: 100%;
+    object-fit: cover;
+  }
+
+  .form-input button {
+    margin-top: 40px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .form-tela {
+    grid-template-columns: 1fr;
+  }
+
+  .form-input {
+    padding: 60px 80px;
+  }
+
+  .tela-cadastro {
+    padding-bottom: 40px;
+  }
 }

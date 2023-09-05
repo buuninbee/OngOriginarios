@@ -120,6 +120,10 @@ nav li {
   transform: rotate(90deg);
 }
 
+#mobile-li span {
+  cursor: pointer;
+}
+
 #entrar-mobile {
   display: flex;
   gap: 12px;

@@ -4,26 +4,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styleclean.css">
     <link rel="stylesheet" href="./css/style.css">
     <title>Originarios | Esqueci Senha</title>
 </head>
 
 <body>
-
     <header class="header-bg">
         <nav>
-            <ul class="nav-list">
+            <a href="./index.html">
+                <img class="logo" src="./img/icones/icone-originarios.svg" width="225" alt="icone da ong originarios">
+            </a>
+
+            <ul class="nav-list font-2-l">
                 <li> <a href="./index.html">Home</a></li>
-                <li><a href="#">Doaçao</a></li>
-                <li><a href="#">Fotos</a></li>
-                <li> <a href="./quem-somos.html">Quem somos</a></li>
-                <li><a href="#">Como posso ajudar</a></li>
+                <li><a href="./doação.html">Doaçao</a></li>
+                <li> Quem somos?
+                    <ul class="">
+                        <li class="li-list-mobile"><a href="./missao&vissao.html">Missão & Visão</a></li>
+                        <li class="li-list-mobile"><a href="./como-trabalhamos">Como trabalhamos</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Como posso ajudar ?</a></li>
+
             </ul>
-            <ol id="entrar">
+
+            <ul id="entrar" class="font-2-l">
                 <li><a href="./cadastro.html">Cadastro</a></li>
-                <li id="btn-login"><a href="./login.html">Login</a></li>
-            </ol>
+            </ul>
+
+            <div class="mobile-menu-icon">
+                <button id="menushow"><img class="icon" src="./img/icones/icone-open.svg" alt=""></button>
+            </div>
+            </div>
         </nav>
+
+        <div class="mobile-menu">
+
+            <ul class="nav-list font-2-l">
+                <li> <a href="./index.html">Home</a></li>
+                <li><a href="./doação.html">Doaçao</a></li>
+                <li> Quem somos?
+                    <ul class="">
+                        <li class="li-list-mobile"><a href="./missao&vissao.html">Missão & Visão</a></li>
+                        <li class="li-list-mobile"><a href="./como-trabalhamos">Como trabalhamos</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Como posso ajudar ?</a></li>
+
+            </ul>
+
+            <ul id="entrar-mobile" class="font-2-l">
+                <li class="font-2-l"><a href="./cadastro.html">Cadastro</a></li>
+            </ul>
+        </div>
     </header>
 
     <main>
@@ -41,6 +75,11 @@
             <button>Acessar minha conta</button>
         </div>
     </main>
+
+    <script src="./js/jquery-3.7.0.js.js"></script>
+    <script src="./bootstrapjs/bootstrap.bundle.js"></script>
+    <script src="./bootstrapjs/bootstrap.bundle.min.js"></script>
+    <script src="./js/index.js"></script>
 </body>
 
 </html>
