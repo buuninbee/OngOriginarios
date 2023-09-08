@@ -168,6 +168,7 @@ h1 {
   }
 
   .form-input {
+    border-radius: 6px;
     padding: 60px 80px;
   }
 
@@ -183,6 +184,10 @@ h1 {
 @media (max-width: 500px) {
   .tela-cadastro {
     padding: 40px 60px;
+  }
+
+  .form-input button {
+    padding: 10px 20px;
   }
 }
 

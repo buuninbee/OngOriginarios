@@ -126,4 +126,13 @@ span {
   #senhaperdida {
     margin-left: 34px;
   }
+
+  .conteudo-login {
+    padding: 60px 20px;
+    margin-top: 80px;
+  }
+
+  #senhaperdida {
+    font-size: 14px;
+  }
 }

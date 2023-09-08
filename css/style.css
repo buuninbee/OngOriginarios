@@ -33,3 +33,6 @@
 
 /* Como trabalhamos */
 @import "./comoTrabalhamos/comoTrabalhamos.css";
+
+/* Como posso ajudar? */
+@import "./como-posso-ajudar/como-posso-ajudar.css";

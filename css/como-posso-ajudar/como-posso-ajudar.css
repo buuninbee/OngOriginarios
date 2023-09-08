@@ -1,0 +1,82 @@
+.conteiner-ajuda {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 160px 60px;
+}
+
+#como-ajudar h3 {
+  color: var(--color-segundario);
+}
+
+#como-ajudar h2 {
+  max-width: 10ch;
+}
+
+.conteiner-ajuda img {
+  width: 100%;
+}
+
+.conteiner-ajuda div {
+  background-color: var(--bg-input);
+  color: var(--color-principal);
+  border-radius: 0 0 6px 6px;
+}
+
+.tipos-de-ajuda {
+  padding: 16px 10px;
+}
+
+.tipos-de-ajuda a {
+  display: grid;
+  place-items: center;
+}
+
+.divulga {
+  display: grid;
+  place-items: center;
+  background-color: var(--bg-secundario);
+  color: var(--color-principal);
+  padding: 60px;
+  margin-bottom: 80px;
+  border-radius: 6px;
+}
+
+.divulga a {
+  text-decoration: none;
+  padding: 10px 16px;
+  background-color: var(--bg-text-titulos);
+  border-radius: 4px;
+}
+
+.divulga a:hover {
+  background-color: #1e2c1b;
+}
+
+@media (max-width: 800px) {
+  .conteiner-ajuda {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .divulga {
+    padding: 40px;
+  }
+}
+
+@media (max-width: 800px) {
+  .conteiner-ajuda {
+    grid-template-columns: 1fr;
+  }
+
+  .conteiner-ajuda {
+    padding: 80px 40px;
+  }
+
+  #como-ajudar .missaoEvissao {
+    padding: 80px 60px;
+  }
+
+  #como-ajudar .missaoEvissao h2 {
+    padding-bottom: 14px;
+  }
+}
