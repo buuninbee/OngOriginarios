@@ -30,3 +30,6 @@
 
 /* fonts */
 @import "./tipografia/tipografia.css";
+
+/* Como trabalhamos */
+@import "./comoTrabalhamos/comoTrabalhamos.css";

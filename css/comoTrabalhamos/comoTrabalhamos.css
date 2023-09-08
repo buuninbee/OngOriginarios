@@ -1,0 +1,20 @@
+.niveis p,
+h2 {
+  margin: 0;
+  padding: 0;
+}
+
+.niveis p {
+  color: var(--color-segundario);
+  padding-bottom: 4px;
+}
+
+.niveis h2 {
+  color: var(--color-principal);
+  padding-bottom: 8px;
+}
+
+.niveis {
+  display: grid;
+  gap: 30px;
+}
