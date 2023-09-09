@@ -63,7 +63,7 @@
   }
 }
 
-@media (max-width: 800px) {
+@media (max-width: 600px) {
   .conteiner-ajuda {
     grid-template-columns: 1fr;
   }
@@ -78,5 +78,23 @@
 
   #como-ajudar .missaoEvissao h2 {
     padding-bottom: 14px;
+  }
+
+  .divulga {
+    border-radius: 0px;
+  }
+}
+
+@media (max-width: 500px) {
+  #como-ajudar .missaoEvissao {
+    padding: 60px 20px;
+  }
+
+  .tipos-de-ajuda {
+    padding: 16px 20px;
+  }
+
+  .tipos-de-ajuda a {
+    padding-bottom: 8px;
   }
 }
